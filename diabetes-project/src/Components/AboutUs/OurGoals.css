@@ -1,0 +1,37 @@
+.aboutUsSection {
+  min-height: 60vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.aboutUsTextArea {
+  display: flex;
+  margin: 1rem auto;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.aboutUsTitle {
+  font-size: 3.5rem;
+  color: #181ab3d8;
+}
+.aboutUsText {
+  text-align: center;
+  color: rgb(145, 143, 143);
+  font-size: 1.12rem;
+}
+
+@media (max-width: 750px) {
+  .aboutUsTextArea {
+    margin-top: 1.8rem;
+  }
+  .aboutUsTitle {
+    font-size: 2rem;
+  }
+  .aboutUsText {
+    font-size: 1rem;
+  }
+}

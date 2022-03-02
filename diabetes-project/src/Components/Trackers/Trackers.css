@@ -1,0 +1,81 @@
+.trackerSection {
+  min-height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trackerContainer {
+  display: flex;
+  margin: 1rem auto;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+.trackerTitle {
+  font-size: 3.5rem;
+  color: #181ab3d8;
+}
+.trackers {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.trackerLogs,
+.buttonsContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.trackerText {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #2d3999;
+}
+.trackerButton {
+  width: 80%;
+  color: #fff;
+  font-weight: 700;
+  background-color: #448ef6;
+  border: transparent;
+  border-radius: 5px;
+  padding: 12px 36px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.trackerButton:hover {
+  background-color: rgba(103, 48, 236, 1);
+  letter-spacing: 1.2px;
+}
+@media (max-width: 950px) {
+  .trackers {
+    width: 70%;
+  }
+}
+
+@media (max-width: 770px) {
+  .trackers {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  .trackers {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .buttonsContainer {
+    margin-top: 20px;
+  }
+}

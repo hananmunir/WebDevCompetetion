@@ -1,0 +1,56 @@
+.footerContainer {
+  height: 50vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(103, 48, 236, 0.5), rgb(103, 48, 236));
+}
+.footerTitle {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+
+.footerDescription {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footerInputContainer {
+  width: 50%;
+  height: 40px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+}
+.footerInputContainer :focus {
+  outline: none;
+}
+
+.footerInput {
+  border: none;
+  font-size: 18px;
+  padding-left: 20px;
+  flex: 8;
+}
+.footerButton {
+  flex: 1;
+  border: none;
+  background-color: #03045e;
+  color: #fff;
+}
+
+@media (max-width: 750px) {
+  .footerInputContainer {
+    width: 80%;
+  }
+  .footerDescription {
+    text-align: "center";
+  }
+  .footerTitle {
+    font-size: 54px;
+  }
+}
