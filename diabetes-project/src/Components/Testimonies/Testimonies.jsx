@@ -32,7 +32,7 @@ function Testimonies({ home }) {
     <section className='testimoniesSection'>
       <div className='title'>
        
-        <h2>Testimonial</h2>
+        <h2>Testimonials</h2>
       </div>
       <div className='section-center'>
         {people.map((person, personIndex) => {

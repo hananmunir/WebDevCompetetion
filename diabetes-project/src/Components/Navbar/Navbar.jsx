@@ -63,7 +63,10 @@ export default function Navbar({ home }) {
       {home ? (
         <div className='textBox'>
           <h1>A Healthy Heart Is All We Need</h1>
-          <p>Wake up health allows you to track your blood sugar,</p>
+          <p>
+            Wake up health allows you to keep track of your blood sugar, blood
+            pressure and weight.
+          </p>
           <button>
             <Link className='link' to='/auth'>
               Get Started
